@@ -21,3 +21,10 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+heros_name= input('(Enter your heros name)\n')
+
+setting = input('Where is your hero? (example: jungle, city, north pole)\n')
+
+objective = input('What is your heros objective? (example: save the princess)\n')
+
+print(f'{heros_name} is in the {setting} and their objective is {objective}.')
